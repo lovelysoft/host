@@ -1,6 +1,6 @@
 ## host
 
-The `host` is a useful tool to check basic information of your new host, so you don't need to use many command to query it any more.
+The `host` is a useful tool to check basic information of your new host, so you don't need to use many commands to query it any more.
 
 ### The host information：
 
