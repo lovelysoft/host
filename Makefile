@@ -7,3 +7,6 @@ build:
 
 clear:
 	@rm -fr bin/*
+
+run:
+	@go run main.go

@@ -23,7 +23,7 @@ func main() {
 	}
 	tableContent = append(tableContent,
 		[]string{"Hostname", hostInfo.Hostname},
-		[]string{"OS", hostInfo.OS + " " + hostInfo.PlatformVersion},
+		[]string{"OS", hostInfo.Platform + " " + hostInfo.PlatformVersion},
 		[]string{"BootTime", time.Unix(int64(hostInfo.BootTime), 0).Format("2006-01-02 15:04:05")},
 		[]string{"Uptime", formatBootTime(hostInfo.Uptime)},
 	)
