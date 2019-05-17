@@ -1,8 +1,8 @@
 ## host
 
-host 是一款用来方便便捷获取操作系统信息 & 主机硬件配置的工具，免掉进入一个新的主机后一个个命令查看、查找信息，只需一个命令就能获取所有必要的主机信息。
+The `host` is a useful tool to check basic information of your new host, so you don't need to use many command to query it any more.
 
-### 可以查看到的主机信息：
+### The host information：
 
 ```
 +--------------+--------------------------------+
@@ -21,4 +21,14 @@ host 是一款用来方便便捷获取操作系统信息 & 主机硬件配置的
 +--------------+--------------------------------+
 | Memory Total | 8 GB                           |
 +--------------+--------------------------------+
+```
+
+### How to use it 
+
+**Linux**
+
+```
+curl -L https://github.com/lovelysoft/host/releases/download/v0.1.0/host_linux -o host
+chmod +x host
+mv host /usr/bin/
 ```
